@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    text-align: center;
+ 
+ 
+ }
+ #header{
+     background-image: url("images/Akwa-Ibom-road-1.webp");
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ 
+ }
+ #Visit{
+ 
+     margin-top: 130px;
+     margin-bottom: 10px;
+     text-align: center;
+     color: white;
+     background: rgb(7, 86, 108);
+     padding: 8px  10px  8px 10px;
+     border-radius: 5px;
+ 
+ 
+ }
+ #Visit:hover{
+     background: rgb(0, 41, 52);
+ }
+ #about-akwaibom{
+     margin-top: 5px;
+     margin-bottom: 80px;
+     text-align: center;
+     color: white;
+     background: rgb(189, 175, 107);
+     padding: 8px  10px  8px 10px;
+     border-radius: 5px;
+ }
+ #about-akwaibom:hover{
+     background: rgb(68, 58, 5);
+     font-size: large;
+ 
+ }
+ 
+ .activities{
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ #container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto 0 auto;
+ 
+ 
+ }
+ 
+ 
+ .card{
+     margin: 10px 20px 10px 20px;
+     width: 250px;
+     padding: 30px;
+     justify-content: inherit;
+     border-radius: 15px;
+ 
+ }
+ 
+ .theater{
+     width: 100px;
+     height: 100px;
+     border-radius: 50% ;
+ }
+ .theater:hover{
+     width: 150px;
+     height: 150px;
+     border-radius: 50% ;
+ 
+ }
+ 
+ #profile{
+     display: flex;
+     width: 400px;
+     margin: 0 auto 50px auto;
+     border-bottom: 8px solid rgb(189, 175, 107);
+     border-radius: 13px;
+     background: rgb(7, 86, 108);
+     color: white;
+     padding: 20px 30px 20px 30px;
+     justify-content: space-around;
+ }
+ 
+ #avatar{
+     background-image: url("images/profile.jpg");
+     background-size: cover;
+     width: 100px;
+     border-radius: 13px;
+ }
+ #avatar:hover{
+     background-image: url("images/104461_twitter_icon.png");
+     background-repeat: no-repeat;
+     background-size: 100px;
+     width: 100px;
+     border-radius: 13px;
+ 
+ 
+ 
+ }
+ #hover-on:hover{
+     color: yellow;
+ 
+ }
